@@ -56,9 +56,8 @@ This project addresses the following key questions:
 
 **Microsoft Excel**: Used for the entire workflow, including data cleaning, transformation, analysis, and dashboard creation.
 
-**Power Query**: Used to prepare and clean the dataset.
-
-**Power Pivot**: Used to create calculated columns.
+- **Power Query**: Used to prepare and clean the dataset.
+- **Power Pivot**: Used to create calculated columns.
 
 
 **Data Cleaning (Power Query):**
@@ -67,63 +66,38 @@ This project addresses the following key questions:
 - Removed trailing spaces and non-printable characters.
 - Applied consistent capitalization to enhance readability.
 - Renamed columns for clarity:
-"Model Name" → "Full Model Name"
+  - "Model Name" → "Full Model Name"
+  - "Km Driven" → "Kilometers Driven"
+  - "Ownership" → "Previous Owners"
+  - "Engine Capacity" → "Engine Capacity (cc)"
+  - "Spare Key" → "Spare Key Availability"
+  - "Imperfections" → "Imperfection Count"
+  - "Repainted Parts" → "Repainted Parts Count"
 
-"Km Driven" → "Kilometers Driven"
+- Extracted brand, car model, and variant from "Full Model Name"
 
-"Ownership" → "Previous Owners"
+Created three new columns:
+ - Brand: Maruti
+ - Car Model: e.g., Swift, Baleno
+ - Car Variant: e.g., ZXi, VXi, Delta
 
-"Engine Capacity" → "Engine Capacity (cc)"
+- Removed duplicates to ensure data integrity.
 
-"Spare Key" → "Spare Key Availability"
-
-"Imperfections" → "Imperfection Count"
-
-"Repainted Parts" → "Repainted Parts Count"
-
-Extracted brand, car model, and variant from "Full Model Name"
-
-Created two new columns:
-
-Car Model: e.g., Swift, Baleno
-
-Car Variant: e.g., ZXi, VXi, Delta
-
-
-
-Removed duplicates to ensure data integrity.
-
-
-Data Modeling (Power Pivot):
+**Data Modeling (Power Pivot):**
 
 New calculated columns were created:
 
-Car Age (Years): Current year − Manufacturing year
-
-Model Age Group:
-
-New Model: 5 years old or less
-
-Old Model: More than 5 years old
-
-
-Engine Category:
-
-Small Engine: < 1000 cc
-
-Mid-range Engine: 1000–1500 cc
+ - Car Age (Years): Current year − Manufacturing year
+ - Model Age Group:
+  - New Model: 5 years old or less
+  - Old Model: More than 5 years old
+- Engine Category:
+  - Small Engine: < 1000 cc
+  - Mid-range Engine: 1000–1500 cc
+- Kilometer Driven Range: Buckets such as 0–25K, 25K–50K, 50K–75K, etc.
 
 
-Kilometer Driven Range:
-
-Buckets such as 0–25K, 25K–50K, 50K–75K, etc.
-
-
-
-
----
-
-5. Analysis and Dashboards
+### Analysis and Dashboards
 
 Dashboard 1: Customer Preference & Car Profile Analysis
 
