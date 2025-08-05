@@ -38,16 +38,16 @@ This project addresses the following key questions:
 |Column|Description|
 |------|-----------|
 |Model Name|Complete car name including year and variant (e.g. "2015 Maruti Wagon R 1.0 Vxi")|
-Year	The year the car was manufactured
-Price	The resale price (in Indian Rupees)
-Km Driven	Total kilometers driven; an indicator of usage/mileage
-Fuel Type	Type of fuel the car uses: Petrol, Diesel, or CNG
-Transmission	Manual or Automatic transmission type
-Ownership	Number of previous owners (e.g., First-owner, Second-owner)
-Engine Capacity (cc)	Displacement of the engine in cubic centimeters
-Spare Key	Indicates whether a spare key is available (Yes/No)
-Imperfections	Number of visible imperfections observed during inspection
-Repainted Parts	Number of car parts that have been repainted
+|Year|The year the car was manufactured
+Price	The resale price (in Indian Rupees)|
+|Km Driven|Total kilometers driven; an indicator of usage/mileage|
+|Fuel Type|Type of fuel the car uses: Petrol, Diesel, or CNG|
+|Transmission|Manual or Automatic transmission type|
+|Ownership|Number of previous owners (e.g., First-owner, Second-owner)|
+|Engine Capacity (cc)|Displacement of the engine in cubic centimeters|
+|Spare Key|Indicates whether a spare key is available (Yes/No)|
+|Imperfections|Number of visible imperfections observed during inspection|
+|Repainted Parts|Number of car parts that have been repainted|
 
 
 
