@@ -87,8 +87,8 @@ New calculated columns were created:
 
  - Car Age (Years): Current year − Manufacturing year
  - Model Age Group:
-  - New Model: 5 years old or less
-  - Old Model: More than 5 years old
+   - New Model: 5 years old or less
+   - Old Model: More than 5 years old
 - Engine Category:
   - Small Engine: < 1000 cc
   - Mid-range Engine: 1000–1500 cc
