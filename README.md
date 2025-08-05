@@ -74,12 +74,10 @@ This project addresses the following key questions:
   - "Imperfections" → "Imperfection Count"
   - "Repainted Parts" → "Repainted Parts Count"
 
-- Extracted brand, car model, and variant from "Full Model Name"
-
-Created three new columns:
- - Brand: Maruti
- - Car Model: e.g., Swift, Baleno
- - Car Variant: e.g., ZXi, VXi, Delta
+- Extracted brand, car model, and variant from "Full Model Name" and Created three new columns:
+  - Brand: Maruti
+  - Car Model: e.g., Swift, Baleno
+  - Car Variant: e.g., ZXi, VXi, Delta
 
 - Removed duplicates to ensure data integrity.
 
