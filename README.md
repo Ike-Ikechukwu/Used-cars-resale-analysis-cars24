@@ -38,8 +38,8 @@ This project addresses the following key questions:
 |Column|Description|
 |------|-----------|
 |Model Name|Complete car name including year and variant (e.g. "2015 Maruti Wagon R 1.0 Vxi")|
-|Year|The year the car was manufactured
-Price	The resale price (in Indian Rupees)|
+|Year|The year the car was manufactured|
+|Price|The resale price (in Indian Rupees)|
 |Km Driven|Total kilometers driven; an indicator of usage/mileage|
 |Fuel Type|Type of fuel the car uses: Petrol, Diesel, or CNG|
 |Transmission|Manual or Automatic transmission type|
@@ -50,30 +50,23 @@ Price	The resale price (in Indian Rupees)|
 |Repainted Parts|Number of car parts that have been repainted|
 
 
+### Methodology
 
----
+**Tools Used:**
 
-4. Methodology
+**Microsoft Excel**: Used for the entire workflow, including data cleaning, transformation, analysis, and dashboard creation.
 
-Tools Used:
+**Power Query**: Used to prepare and clean the dataset.
 
-Microsoft Excel: Used for the entire workflow, including data cleaning, transformation, analysis, and dashboard creation.
-
-Power Query: Used to prepare and clean the dataset.
-
-Power Pivot: Used to create calculated columns and build relationships for advanced analysis.
+**Power Pivot**: Used to create calculated columns.
 
 
-Data Cleaning (Power Query):
+**Data Cleaning (Power Query):**
 
-Converted all columns to their appropriate data types (text, number, date).
-
-Removed trailing spaces and non-printable characters.
-
-Applied consistent capitalization to enhance readability.
-
-Renamed columns for clarity:
-
+- Converted all columns to their appropriate data types (text, number, date).
+- Removed trailing spaces and non-printable characters.
+- Applied consistent capitalization to enhance readability.
+- Renamed columns for clarity:
 "Model Name" → "Full Model Name"
 
 "Km Driven" → "Kilometers Driven"
@@ -87,9 +80,6 @@ Renamed columns for clarity:
 "Imperfections" → "Imperfection Count"
 
 "Repainted Parts" → "Repainted Parts Count"
-
-
-Feature Engineering:
 
 Extracted brand, car model, and variant from "Full Model Name"
 
