@@ -94,10 +94,15 @@ New calculated columns were created:
 - Kilometer Driven Range: Buckets such as 0–25K, 25K–50K, 50K–75K, etc.
 
 
-## Dashboards
-**Dashboard 1: Customer Preference & Car Profile Analysis**
+### Dashboards
+#### Customer Preference & Car Profile Analysis**
 
-**Dashboard 2: Resale Value & Depreciation Analysis**
+<img width="1791" height="886" alt="Screenshot 2025-08-06 130114" src="https://github.com/user-attachments/assets/e1fe2189-6769-4134-a1f3-370bacf023d4" />
+
+
+#### Resale Value & Depreciation Analysis**
+
+<img width="1787" height="883" alt="Screenshot 2025-08-06 130238" src="https://github.com/user-attachments/assets/7a6a90c1-6747-4516-8cb2-88acf2cf420b" />
 
 
 **Customer Preference & Car Profile Analysis**
