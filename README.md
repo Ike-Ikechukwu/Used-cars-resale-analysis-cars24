@@ -96,6 +96,7 @@ New calculated columns were created:
 
 ## Dashboards
 **Dashboard 1: Customer Preference & Car Profile Analysis**
+
 **Dashboard 2: Resale Value & Depreciation Analysis**
 
 
