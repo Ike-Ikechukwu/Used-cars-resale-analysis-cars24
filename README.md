@@ -111,7 +111,7 @@ Displays the most frequently listed Maruti models (e.g., Swift, Wagon, Baleno). 
 Provides more granular detail including production year and variant (e.g., 2015 Wagon R 1.0 VXi).
 Indicates which trims and years are most resold.
 
-  Together they reveal what type of Maruti cars customer buy and later resale the most, offering strong insights into preference and resale trends .
+    Together they reveal what type of Maruti cars customer buy and later resale the most, offering strong insights into preference and resale trends .
 
 -  **Fuel Type Distribution**:
 Highlights customer preference among Petrol, Diesel, and CNG.
