@@ -102,7 +102,8 @@ New calculated columns were created:
 
 #### Resale Value & Depreciation Analysis**
 
-<img width="1787" height="883" alt="Screenshot 2025-08-06 130238" src="https://github.com/user-attachments/assets/7a6a90c1-6747-4516-8cb2-88acf2cf420b" />
+<img width="1788" height="887" alt="Screenshot 2025-08-06 131111" src="https://github.com/user-attachments/assets/9e164c17-4b8a-4322-9354-1892efca16a4" />
+
 
 
 **Customer Preference & Car Profile Analysis**
