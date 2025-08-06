@@ -110,8 +110,7 @@ Displays the most frequently listed Maruti models (e.g., Swift, Wagon, Baleno). 
 -  **Top 10 Most Listed Maruti Cars**:
 Provides more granular detail including production year and variant (e.g., 2015 Wagon R 1.0 VXi).
 Indicates which trims and years are most resold.
-
-  Together they reveal what type of Maruti cars customer buy and later resale the most, offering strong insights into preference and resale trends .
+Together they reveal what type of Maruti cars customer buy and later resale the most, offering strong insights into preference and resale trends .
 
 -  **Fuel Type Distribution**:
 Highlights customer preference among Petrol, Diesel, and CNG.
@@ -179,7 +178,6 @@ Diesel vehicles often command higher resale prices, while CNG and Petrol follow.
 - Segment inventory by:
   - **Fuel Type**: Different buyer segments favor different fuels (Diesel may fetch higher prices, CNG may be more economical).
   - **Engine Category**: Performance-oriented buyers may prefer mid-range engines; fuel-efficient buyers lean toward small engines.
-
   This segmentation strategy enables better pricing, targeted promotions, and efficient inventory turnover based on customer demand and resale trends.
   
 
