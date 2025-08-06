@@ -178,6 +178,7 @@ Diesel vehicles often command higher resale prices, while CNG and Petrol follow.
 - Segment inventory by:
   - **Fuel Type**: Different buyer segments favor different fuels (Diesel may fetch higher prices, CNG may be more economical).
   - **Engine Category**: Performance-oriented buyers may prefer mid-range engines; fuel-efficient buyers lean toward small engines.
+
 This segmentation strategy enables better pricing, targeted promotions, and efficient inventory turnover based on customer demand and resale trends.
   
 
