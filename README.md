@@ -103,90 +103,56 @@ Objective: Identify customer preferences and popular car profiles with a focus o
 
 Charts and Insights:
 
-Top 10 Maruti Models:
+-  Top 10 Maruti Models:
+Displays the most frequently listed Maruti models (e.g., Swift, Wagon, Baleno). revealing overall brand-level popularity and customers trust in these models.
 
-Displays the most frequently listed Maruti models (e.g., Swift, Wagon R, Baleno).
-
-Helps gauge model-level trust and popularity.
-
-
-Top 10 Most Listed Maruti Cars:
-
+-  Top 10 Most Listed Maruti Cars:
 Provides more granular detail including production year and variant (e.g., 2015 Wagon R 1.0 VXi).
-
 Indicates which trims and years are most resold.
 
+Together they reveal what type of Maruti cars customer buy and later resale the most, offering strong insights into preference and resale trends .
 
-Fuel Type Distribution:
-
+-  Fuel Type Distribution:
 Highlights customer preference among Petrol, Diesel, and CNG.
-
 Offers a view into market demand by fuel type.
 
-
-Transmission Type Distribution:
-
+-  Transmission Type Distribution:
 Shows distribution between Manual and Automatic cars.
-
 Useful for identifying shifts in buyer preferences.
 
 
+**Resale Value & Depreciation Analysis**
 
-
----
-
-Dashboard 2: Resale Value & Depreciation Analysis
-
-Objective: Understand how vehicle characteristics affect resale value and depreciation trends.
+**Objective:** Understand how vehicle characteristics affect resale value and depreciation trends.
 
 Charts and Insights:
 
-Car Age vs. Average Price:
-
+-  Car Age vs. Average Price:
 Visualizes depreciation curve.
-
 Confirms that car value drops significantly as age increases.
 
-
-Kilometer Driven Range vs. Average Price:
-
+-  Kilometer Driven Range vs. Average Price:
 Reveals that higher mileage often correlates with lower resale prices.
 
-
-Mileage vs. Imperfections & Repainted Parts:
-
+-  Mileage vs. Imperfections & Repainted Parts:
 Shows how wear and tear increases with use.
-
 Indicates that cosmetic and physical damage reduces perceived value.
 
-
-Average Price by Number of Owners:
-
+-  Average Price by Number of Owners:
 Demonstrates that single-owner cars fetch higher prices than those with multiple owners.
 
-
-Average Price by Spare Key Availability:
-
+-  Average Price by Spare Key Availability:
 Minor but noteworthy value gain when a spare key is available, indicating better upkeep.
 
-
-Average Price by Engine Category:
-
+-  Average Price by Engine Category:
 Mid-range engines often valued higher for performance.
-
 Small engines appeal to fuel-conscious buyers.
 
-
-Average Price by Fuel Type:
-
+-  Average Price by Fuel Type:
 Diesel vehicles often command higher resale prices, while CNG and Petrol follow.
 
 
-
-
----
-
-6. Key Findings
+**Key Findings**
 
 Depreciation is inevitable: Car value consistently decreases with age, especially beyond 5–6 years.
 
