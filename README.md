@@ -95,28 +95,30 @@ New calculated columns were created:
 - Kilometer Driven Range: Buckets such as 0–25K, 25K–50K, 50K–75K, etc.
 
 
-### Analysis and Dashboards
+## Dashboards
+**Dashboard 1: Customer Preference & Car Profile Analysis**
+**Dashboard 2: Resale Value & Depreciation Analysis**
 
-Dashboard 1: Customer Preference & Car Profile Analysis
 
-Objective: Identify customer preferences and popular car profiles with a focus on Maruti brand listings.
+**Customer Preference & Car Profile Analysis**
 
-Charts and Insights:
+**Objective:** Identify customer preferences and popular car profiles with a focus on Maruti brand listings.
 
--  Top 10 Maruti Models:
+**Insights:**
+-  **Top 10 Most Listed Maruti Models**:
 Displays the most frequently listed Maruti models (e.g., Swift, Wagon, Baleno). revealing overall brand-level popularity and customers trust in these models.
 
--  Top 10 Most Listed Maruti Cars:
+-  **Top 10 Most Listed Maruti Cars**:
 Provides more granular detail including production year and variant (e.g., 2015 Wagon R 1.0 VXi).
 Indicates which trims and years are most resold.
 
 Together they reveal what type of Maruti cars customer buy and later resale the most, offering strong insights into preference and resale trends .
 
--  Fuel Type Distribution:
+-  **Fuel Type Distribution**:
 Highlights customer preference among Petrol, Diesel, and CNG.
 Offers a view into market demand by fuel type.
 
--  Transmission Type Distribution:
+-  **Transmission Type Distribution**:
 Shows distribution between Manual and Automatic cars.
 Useful for identifying shifts in buyer preferences.
 
@@ -125,99 +127,60 @@ Useful for identifying shifts in buyer preferences.
 
 **Objective:** Understand how vehicle characteristics affect resale value and depreciation trends.
 
-Charts and Insights:
+**Insights:**
 
--  Car Age vs. Average Price:
+-  **Car Age vs. Average Price**:
 Visualizes depreciation curve.
 Confirms that car value drops significantly as age increases.
 
--  Kilometer Driven Range vs. Average Price:
+-  **Kilometer Driven Range vs. Average Price**:
 Reveals that higher mileage often correlates with lower resale prices.
 
--  Mileage vs. Imperfections & Repainted Parts:
+-  **Mileage vs. Imperfections & Repainted Parts**:
 Shows how wear and tear increases with use.
 Indicates that cosmetic and physical damage reduces perceived value.
 
--  Average Price by Number of Owners:
+-  **Average Price by Number of Owners**:
 Demonstrates that single-owner cars fetch higher prices than those with multiple owners.
 
--  Average Price by Spare Key Availability:
+-  **Average Price by Spare Key Availability**:
 Minor but noteworthy value gain when a spare key is available, indicating better upkeep.
 
--  Average Price by Engine Category:
+-  **Average Price by Engine Category**:
 Mid-range engines often valued higher for performance.
 Small engines appeal to fuel-conscious buyers.
 
--  Average Price by Fuel Type:
+-  **Average Price by Fuel Type**:
 Diesel vehicles often command higher resale prices, while CNG and Petrol follow.
 
 
-**Key Findings**
+### Key Findings
 
-Depreciation is inevitable: Car value consistently decreases with age, especially beyond 5–6 years.
-
-Popular Maruti Models: Swift, Baleno, and Wagon R dominate listings.
-
-Single Ownership Advantage: Vehicles with fewer previous owners retain more value.
-
-Vehicle Condition Matters: More imperfections and repainting correlate with lower resale prices.
-
-Spare Key Availability: Although minor, contributes positively to perceived vehicle value.
+- **Depreciation is inevitable**: Car value consistently decreases with age, especially beyond 5–6 years.
+- **Popular Maruti Models**: Swift, Baleno, and Wagon R dominate listings.
+- **Single Ownership Advantage**: Vehicles with fewer previous owners retain more value.
+- **Vehicle Condition Matters**: More imperfections and repainting correlate with lower resale prices.
+- **Spare Key Availability**: Although minor, contributes positively to perceived vehicle value.
 
 
+### Recommendations
 
----
+**For Buyers:**
+- Opt for older cars if you're looking for affordability.
+- Inspect the car's physical condition thoroughly.
+- Prefer single-owner cars with complete accessories (e.g., spare keys).
 
-7. Recommendations
+**For Sellers:**
+- Resell before 5–6 years of usage to minimize depreciation losses.
+- Fix visible imperfections and repainting to increase appeal and market value.
 
-For Buyers:
-
-Opt for older cars if you're looking for affordability.
-
-Inspect the car's physical condition thoroughly.
-
-Prefer single-owner cars with complete accessories (e.g., spare keys).
-
-
-For Sellers:
-
-Resell before 5–6 years of usage to minimize depreciation losses.
-
-Fix visible imperfections and repainting to increase appeal and market value.
-
-
-For Dealerships:
-
-Stock high-demand models and variants, especially for the Maruti brand.
-
-Prioritize low-mileage, single-owner cars to ensure faster resale and higher profit margins.
-
-Segment inventory by:
-
-Fuel Type: Different buyer segments favor different fuels (Diesel may fetch higher prices, CNG may be more economical).
-
-Engine Category: Performance-oriented buyers may prefer mid-range engines; fuel-efficient buyers lean toward small engines.
-
-
-
+**For Dealerships:**
+- Stock high-demand models and variants, especially for the Maruti brand.
+- Prioritize low-mileage, single-owner cars to ensure faster resale and higher profit margins.
+- Segment inventory by:
+  - Fuel Type: Different buyer segments favor different fuels (Diesel may fetch higher prices, CNG may be more economical).
+  - Engine Category: Performance-oriented buyers may prefer mid-range engines; fuel-efficient buyers lean toward small engines.
 This segmentation strategy enables better pricing, targeted promotions, and efficient inventory turnover based on customer demand and resale trends.
-
-
----
-
-Next Steps: Consider creating a visual dashboard in Excel or Power BI to complement this analysis and present the insights in an interactive format for stakeholders. A downloadable version of this documentation in PDF or Word format can also be prepared for formal presentation or sharing.
-
-
-
-The documentation has now been completed with full context, including a refined conclusion under Recommendations and a Next Steps section to guide further development.
-
-Let me know if you'd like:
-
-A PDF or Word version of this document
-
-A matching PowerPoint presentation
-
-Dashboard visuals to enhance your report
 
 
 
