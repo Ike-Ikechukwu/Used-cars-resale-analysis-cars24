@@ -99,6 +99,25 @@ New calculated columns were created:
 
 <img width="1791" height="886" alt="Screenshot 2025-08-06 130114" src="https://github.com/user-attachments/assets/e1fe2189-6769-4134-a1f3-370bacf023d4" />
 
+**Objective:** Identify customer preferences and popular car profiles with a focus on Maruti brand listings.
+
+**Insights:**
+-  **Top 10 Most Listed Maruti Models**:
+This chart highlights the most frequently listed Maruti models. Baleno leads with 236 listings, followed by Alto (161), Swift (151), Wagon R (141), and Celerio (141). Altogether, these five models make up 830 out of 1,445 total Maruti listings, which is approximately 57.5% of all Maruti cars listed.
+This suggests that more than half of the Maruti cars being resold on the platform come from just these five models — a strong indicator of customer preference and trust in these models.
+
+-  **Top 10 Most Listed Maruti Cars**:
+This chart goes a level deeper by showing which specific model-year-variant combinations are most listed. The 2015 Wagon R 1.0 VXi came out on top, with 16 listings — making it the most frequently resold individual Maruti variant in the data.
+
+    Taken together, these charts paint a clear picture of which Maruti cars are not only popular at the time of purchase but are also actively traded in the used car market — offering solid insight into long-term value and buyer behavior.
+
+-  **Fuel Type Distribution**:
+This chart gives a quick look at what fuel types people prefer. Petrol cars make up the majority, accounting for 87% of the listings. CNG comes next with 8%, and Diesel trails behind at just 5%. It’s clear that petrol vehicles are the most in demand, while CNG and diesel cars are far less common on the platform..
+
+-  **Transmission Type Distribution**:
+This chart shows how cars are split between manual and automatic transmissions. Manual cars make up the bulk of the listings with 1,073 entries, while automatic cars account for 372. It’s a useful snapshot of current buyer behavior, showing that manual is still the more common choice, though there’s a growing presence of automatic options too.
+
+
 
 #### Resale Value & Depreciation Analysis**
 
