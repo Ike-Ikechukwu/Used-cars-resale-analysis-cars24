@@ -11,22 +11,21 @@
 
 ### Project Overview
 
-This project delivers an extensive data analysis of used car listings sourced from **Cars24**, one of India’s most popular online platforms for buying and selling pre-owned vehicles. The analysis focuses on understanding customer preferences, evaluating the factors that influence resale prices, and examining how various attributes contribute to vehicle depreciation over time.
+This project analyzes used car listings from Cars24, a major platform for buying and selling pre-owned vehicles in India. It looks into what customers prefer, what affects resale prices, and how cars lose value over time.
 
-Through exploratory analysis and visualization, this project offers actionable insights tailored to help key stakeholders such as **car buyers**, **sellers**, **dealership**s, and **marketers** make informed decisions within the dynamic landscape of the used car market.
+The goal is to give useful insights for buyers, sellers, dealerships, and marketers so they can make better decisions in the used car market.
 
 
 ### Problem Statement
 
-The value of a used car is influenced by a combination of factors including mileage, car age, condition, number of previous owners, and brand/model popularity. For buyers, determining fair value and ensuring quality can be difficult. For sellers and dealers, identifying the right time to sell and choosing which cars to stock is essential.
+The resale value of a used car depends on several factors — like mileage, age, condition, number of past owners, and the brand or model. For buyers, it can be hard to know if a car is priced fairly. For sellers and dealers, timing and stock choices matter a lot.
 
-This project addresses the following key questions:
+This project aims to answer key questions like:
 
-- What are the most influential factors affecting the resale price of used cars?
-- How do car age, mileage, and ownership history impact depreciation?
-- Which Maruti models and variants are most frequently listed and resold?
-- How do imperfections and repainted parts affect perceived value and pricing?
-
+- What factors have the biggest impact on resale price?
+- How do age, mileage, and ownership affect a car’s depreciation?
+- Which Maruti models and variants show up most often in listings?
+- Do imperfections and repainted parts lower the car’s value?
 
 ### Dataset Overview
 
@@ -65,13 +64,13 @@ This project addresses the following key questions:
 - Removed trailing spaces and non-printable characters.
 - Applied consistent capitalization to enhance readability.
 - Renamed columns for clarity:
-  - "Model Name" → "Full Model Name"
-  - "Km Driven" → "Kilometers Driven"
-  - "Ownership" → "Previous Owners"
-  - "Engine Capacity" → "Engine Capacity (cc)"
-  - "Spare Key" → "Spare Key Availability"
-  - "Imperfections" → "Imperfection Count"
-  - "Repainted Parts" → "Repainted Parts Count"
+  - "Model Name" to "Full Model Name"
+  - "Km Driven" to "Kilometers Driven"
+  - "Ownership" to "Previous Owners"
+  - "Engine Capacity" to "Engine Capacity (cc)"
+  - "Spare Key" to "Spare Key Availability"
+  - "Imperfections" to "Imperfection Count"
+  - "Repainted Parts" to "Repainted Parts Count"
 
 - Extracted brand, car model, and variant from "Full Model Name" and Created three new columns:
   - Brand: Maruti
