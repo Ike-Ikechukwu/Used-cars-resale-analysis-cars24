@@ -29,7 +29,8 @@ This project aims to answer key questions like:
 
 ### Dataset Overview
 
-**Source:** The dataset was sourced from Kaggle, which hosts structured data scraped from the Cars24 platform.
+**Source:** The dataset is sourced from Kaggle, [Download here](https://www.kaggle.com/datasets/amanrajput16/used-car-price-data-from-cars24)
+which hosts structured data  from the Cars24 platform.
 
 **Key Columns:**
 
