@@ -91,7 +91,7 @@ New calculated columns were created:
 - Engine Category:
   - Small Engine: < 1000 cc
   - Mid-range Engine: 1000–1500 cc
-- Kilometer Driven Range: Buckets such as 0–25K, 25K–50K, 50K–75K, etc.
+- Kilometer Driven Range: Buckets such as 0–25K KM, 25K–50K KM, etc.
 
 
 ### Dashboards and Insights 
