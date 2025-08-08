@@ -18,7 +18,7 @@ The goal is to give useful insights for buyers, sellers, dealerships, and market
 
 ### Problem Statement
 
-The resale value of a used car depends on several factors — like mileage, age, condition, number of past owners, and the brand or model. For buyers, it can be hard to know if a car is priced fairly. For sellers and dealers, timing and stock choices matter a lot.
+The resale value of a used car depends on several factors like mileage, age, condition, number of past owners, and the brand or model. For buyers, it can be hard to know if a car is priced fairly. For sellers and dealers, timing and stock choices matter a lot.
 
 This project aims to answer key questions like:
 
@@ -29,7 +29,7 @@ This project aims to answer key questions like:
 
 ### Dataset Overview
 
-**Source:** The dataset is sourced from Kaggle, [Download here](https://www.kaggle.com/datasets/amanrajput16/used-car-price-data-from-cars24)
+**Source:** The dataset is sourced from Kaggle, ([Download here](https://www.kaggle.com/datasets/amanrajput16/used-car-price-data-from-cars24))
 which hosts structured data  from the Cars24 platform.
 
 **Key Columns:**
@@ -62,7 +62,7 @@ which hosts structured data  from the Cars24 platform.
 **Data Cleaning (Power Query):**
 
 - Converted all columns to their appropriate data types (text, number, date).
-- Removed trailing spaces and non-printable characters.
+- Removed extra spaces.
 - Applied consistent capitalization to enhance readability.
 - Renamed columns for clarity:
   - "Model Name" to "Full Model Name"
@@ -84,7 +84,7 @@ which hosts structured data  from the Cars24 platform.
 
 New calculated columns were created:
 
- - Car Age (Years): Current year − Manufacturing year
+ - Car Age (Years) = Current year − Manufacturing year
  - Model Age Group:
    - New Model: 5 years old or less
    - Old Model: More than 5 years old
@@ -105,12 +105,12 @@ New calculated columns were created:
 **Insights:**
 -  **Top 10 Most Listed Maruti Models**:
 This chart highlights the most frequently listed Maruti models. Baleno leads with 236 listings, followed by Alto (161), Swift (151), Wagon R (141), and Celerio (141). Altogether, these five models make up 830 out of 1,445 total Maruti listings, which is approximately 57.5% of all Maruti cars listed.
-This suggests that more than half of the Maruti cars being resold on the platform come from just these five models — a strong indicator of customer preference and trust in these models.
+This suggests that more than half of the Maruti cars being resold on the platform come from just these five models, A strong indicator of customer preference and trust in these models.
 
 -  **Top 10 Most Listed Maruti Cars**:
-This chart goes a level deeper by showing which specific model-year-variant combinations are most listed. The 2015 Wagon R 1.0 VXi came out on top, with 16 listings — making it the most frequently resold individual Maruti variant in the data.
+This chart goes a level deeper by showing which specific model-year-variant combinations are most listed. The 2015 Wagon R 1.0 VXi came out on top, with 16 listings, making it the most frequently resold individual Maruti variant in the data.
 
-    Taken together, these charts paint a clear picture of which Maruti cars are not only popular at the time of purchase but are also actively traded in the used car market — offering solid insight into long-term value and buyer behavior.
+    Taken together, these charts paint a clear picture of which Maruti cars are not only popular at the time of purchase but are also actively traded in the used car market, offering solid insight into long-term value and buyer behavior.
 
 -  **Fuel Type Distribution**:
 This chart gives a quick look at what fuel types people prefer. Petrol cars make up the majority, accounting for 87% of the listings. CNG comes next with 8%, and Diesel trails behind at just 5%. It’s clear that petrol vehicles are the most in demand, while CNG and diesel cars are far less common on the platform..
@@ -128,33 +128,33 @@ This chart shows how cars are split between manual and automatic transmissions. 
 **Insights:**
 
 -  **Car Age vs. Average Price**:
-The scatter plot clearly shows that as cars get older, their value drops. There’s a strong negative correlation of **-99%** between car age and average price, meaning older cars are consistently worth less. This trend highlights the natural depreciation that comes with age — the longer you keep a car, the less you’re likely to get back when selling it.
+The scatter plot clearly shows that as cars get older, their value drops. There’s a strong negative correlation of **-99%** between car age and average price, meaning older cars are consistently worth less. This trend highlights the natural depreciation that comes with age; the longer you keep a car, the less you’re likely to get back when selling it.
 
 
 -  **Kilometer Driven Range vs. Average Price**:
-This chart looks at how the distance a car has been driven affects its value. The mileage was grouped into buckets: 0–25k km, 25k–50k km, 50k–75k km, 75k–100k km, and 100k+ km. Cars in the 0–25k km range had the highest average price at ₹632,400, followed by ₹540,600 for 25k–50k km. The price continues to drop as mileage increases, with cars over 100,000 km averaging ₹436,400. This clearly shows that as cars are driven more, their value depreciates — higher mileage is closely tied to lower resale prices.
+This chart looks at how the distance a car has been driven affects its value. The mileage was grouped into buckets: 0–25k km, 25k–50k km, 50k–75k km, 75k–100k km, and 100k+ km. Cars in the 0–25k km range had the highest average price at ₹632,400, followed by ₹540,600 for 25k–50k km. The price continues to drop as mileage increases, with cars over 100,000 km averaging ₹436,400. This clearly shows that as cars are driven more, their value depreciates. Higher mileage is closely tied to lower resale prices.
 
 
 -  **Mileage vs. Imperfections & Repainted Parts**:
-This chart highlights how wear and tear builds up as a car is used more. Cars with higher mileage tend to have more imperfections and repainted parts. It shows that the more a car is driven, the more likely it is to need cosmetic or body repairs — and that kind of visible damage can lower how much buyers are willing to pay. It’s another sign of how both usage and condition contribute to a car’s depreciation.
+This chart highlights how wear and tear builds up as a car is used more. Cars with higher mileage tend to have more imperfections and repainted parts. It shows that the more a car is driven, the more likely it is to need cosmetic or body repairs, and that kind of visible damage can lower how much buyers are willing to pay. It’s another sign of how both usage and condition contribute to a car’s depreciation.
 
 -  **Average Price by Number of Owners**:
-This chart shows how the number of previous owners impacts car value. First-owner cars have the highest average price at ₹547,900. That drops to ₹474,300 for second-owner cars and falls even further to ₹369,500 for third-owner cars. The pattern is clear — the more owners a car has had, the less it’s worth. It also reflects depreciation tied to ownership history, as buyers tend to value cars with a simpler, more trustworthy background.
+This chart shows how the number of previous owners impacts car value. First-owner cars have the highest average price at ₹547,900. That drops to ₹474,300 for second-owner cars and falls even further to ₹369,500 for third-owner cars. The pattern is clear; the more owners a car has had, the less it’s worth. It also reflects depreciation tied to ownership history, as buyers tend to value cars with a simpler, more trustworthy background.
 
 -  **Average Price by Spare Key Availability**:
-This chart shows a small but noticeable difference in value when a car comes with a spare key. Cars listed with a spare key had slightly higher average prices compared to those without one. It may seem minor, but it suggests better overall care and completeness — things that buyers tend to appreciate when making a purchase decision.
+This chart shows a small but noticeable difference in value when a car comes with a spare key. Cars listed with a spare key had slightly higher average prices compared to those without one. It may seem minor, but it suggests better overall care and completeness. can be seen as things that buyers tend to appreciate when making a purchase decision.
 
 -  **Average Price by Engine Category**:
 This chart compares car prices based on engine size. Cars with mid-range engines (1000–1500 cc) had an average resale price of ₹615,300, while small-engine cars (under 1000 cc) averaged ₹388,200. Mid-range engines are often valued higher because of better performance, while small engines tend to attract fuel-conscious buyers. The difference in average price shows that engine size is definitely a factor that influences resale value.
 
 -  **Average Price by Fuel Type**:
-This chart shows how fuel type affects resale prices. Diesel cars had the highest average price at ₹589,100, followed by petrol at ₹527,100, and CNG at ₹475,800. The price difference across fuel types suggests that fuel type does influence resale value — with diesel generally commanding higher prices, likely due to better fuel efficiency and engine longevity. Petrol and CNG cars, while cheaper, may appeal more to budget-focused or city drivers.
+This chart shows how fuel type affects resale prices. Diesel cars had the highest average price at ₹589,100, followed by petrol at ₹527,100, and CNG at ₹475,800. The price difference across fuel types suggests that fuel type does influence resale value, with diesel generally commanding higher prices, likely due to better fuel efficiency and engine longevity. Petrol and CNG cars, while cheaper, may appeal more to budget-focused or city drivers.
 
 
 ### Key Findings
 
 -**Depreciation is clear**: Car value steadily drops as the vehicle gets older. Age is one of the strongest factors affecting resale price.
-- **Top Maruti Models**: Swift, Baleno, and Wagon R appear most often in listings. This shows that these models are not only popular among buyers but are also commonly resold — reflecting strong customer preference. 
+- **Top Maruti Models**: Swift, Baleno, and Wagon R appear most often in listings. This shows that these models are not only popular among buyers but are also commonly resold, reflecting strong customer preference. 
 - **Single Ownership Holds Value**: Cars with only one previous owner tend to sell for higher prices compared to those with multiple past owners.
 - **Condition Affects Pricing**: Cars with more imperfections or repainted parts usually have lower resale prices, showing that visible wear and cosmetic issues matter.
 - **Spare Key Makes a Difference**: While it may seem small, having a spare key is linked to slightly higher resale value, possibly because it signals better overall care.
