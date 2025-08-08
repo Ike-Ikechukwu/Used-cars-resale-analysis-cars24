@@ -96,7 +96,7 @@ New calculated columns were created:
 
 ### Dashboards and Insights 
 
-**Customer Preference & Car Profile Analysis**
+#### Customer Preference & Car Profile Analysis
 
 <img width="1791" height="886" alt="Screenshot 2025-08-06 130114" src="https://github.com/user-attachments/assets/e1fe2189-6769-4134-a1f3-370bacf023d4" />
 
@@ -119,7 +119,7 @@ This chart gives a quick look at what fuel types people prefer. Petrol cars make
 This chart shows how cars are split between manual and automatic transmissions. Manual cars make up the bulk of the listings with 1,073 entries, while automatic cars account for 372. It’s a useful snapshot of current buyer behavior, showing that manual is still the more common choice, though there’s a growing presence of automatic options too.
 
 
-**Resale Value & Depreciation Analysis**
+#### Resale Value & Depreciation Analysis
 
 <img width="1788" height="887" alt="Screenshot 2025-08-06 131111" src="https://github.com/user-attachments/assets/9e164c17-4b8a-4322-9354-1892efca16a4" />
 
