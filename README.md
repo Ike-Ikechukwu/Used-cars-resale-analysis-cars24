@@ -98,7 +98,8 @@ New calculated columns were created:
 
 #### Customer Preference & Car Profile Analysis
 
-<img width="1791" height="886" alt="Screenshot 2025-08-06 130114" src="https://github.com/user-attachments/assets/e1fe2189-6769-4134-a1f3-370bacf023d4" />
+<img width="1779" height="839" alt="Screenshot 2025-08-08 121326" src="https://github.com/user-attachments/assets/78411fef-48a5-4014-a053-951a28e729fe" />
+
 
 **Objective:** Identify customer preferences and popular car profiles with a focus on Maruti brand listings.
 
@@ -121,7 +122,8 @@ This chart shows how cars are split between manual and automatic transmissions. 
 
 #### Resale Value & Depreciation Analysis
 
-<img width="1788" height="887" alt="Screenshot 2025-08-06 131111" src="https://github.com/user-attachments/assets/9e164c17-4b8a-4322-9354-1892efca16a4" />
+<img width="1778" height="837" alt="Screenshot 2025-08-08 121427" src="https://github.com/user-attachments/assets/b17cb7e1-a9c1-4098-af04-1041e93ef956" />
+
 
 **Objective:** Understand how vehicle characteristics affect resale value and depreciation trends.
 
