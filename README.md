@@ -1,7 +1,7 @@
 # Used Cars Analysis
 
 ## Table of Content
-- Project Overview
+- [Project Overview](#Project-overview)
 - Problem Statement
 - Dataset Overview
 - Methodology
@@ -11,7 +11,7 @@
 
 ### Project Overview
 
-This project analyzes used car listings from Cars24, a major platform for buying and selling pre-owned vehicles in India. It looks into what customers prefer, what affects resale prices, and how cars lose value over time.
+This project analyzes used car listings from Cars24, focusing exclusively on Maruti brand vehicles, one of the most popular and widely sold car brands in India. The analysis looks into customer preferences, factors that influence resale prices, and how Maruti cars depreciate over time.
 
 The goal is to give useful insights for buyers, sellers, dealerships, and marketers so they can make better decisions in the used car market.
 
