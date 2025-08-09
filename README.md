@@ -2,12 +2,12 @@
 
 ## Table of Content
 - [Project Overview](#Project-overview)
-- Problem Statement
-- Dataset Overview
-- Methodology
-- Dashboards and Insights
-- Key Findings
-- Recommendations
+- [Problem Statement](#Problem-statement)
+- [Dataset Overview](#Dataset-overview)
+- [Methodology](#Methodology)
+- [Dashboards and Insights](#Dashboards-and-insights)
+- [Key Findings](#Key-findings)
+- [Recommendations](#Recommendations)
 
 ### Project Overview
 
